@@ -32,13 +32,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.airdevs.air2.presentation.theme.A2Colors
 import dev.airdevs.air2.presentation.theme.A2Radius
 import dev.airdevs.air2.presentation.theme.A2Size
 import dev.airdevs.air2.presentation.theme.A2Spacing
-import dev.airdevs.air2.presentation.theme.A2Theme
 
 /**
  * Air2 主页
@@ -179,10 +177,3 @@ fun Air2HomeScreen(
     }
 }
 
-@Preview(showBackground = true, widthDp = 800, heightDp = 400)
-@Composable
-private fun Air2HomePreview() {
-    A2Theme {
-        Air2HomeScreen()
-    }
-}
