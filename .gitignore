@@ -4,7 +4,4 @@ build/
 *.iml
 local.properties
 .DS_Store
-*.exe
-*.msi
-*.dmg
-*.deb
+out/
